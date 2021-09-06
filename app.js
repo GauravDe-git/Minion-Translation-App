@@ -1,17 +1,17 @@
 //Creating the variables
 
 var btnTranslate = document.querySelector("#btn-translate");
-var textInput = document.querySelector("#textInput");
-var textOutput = document.querySelector("#textOutput");
+var textInput = document.querySelector("#txt-input");
+var textOutput = document.querySelector("#output");
 
 //the server url
 
-var serverUrl = "https://api.funtranslations.com/translate/minion.json";
+var url = "https://api.funtranslations.com/translate/minion.json";
 
 //Function to get the translation url
 
 function getTranslationURL(input) {
-    return serverURL + "?" + "text=" + input
+    return url + "?" + "text=" + input;
 }
 
 //Function to handle errors
