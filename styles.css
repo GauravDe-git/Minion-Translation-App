@@ -1,0 +1,53 @@
+.heading{
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    border-radius: 2rem;
+    padding: 2rem 3rem;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.container{
+    text-align: center;
+    margin: auto;
+}  
+
+.textAreaSize{
+    height: 150px;
+    width: 500px;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 0.5rem; 
+}
+
+.outputtextAreaSize{
+  display: block;
+  height: 10vh;
+  max-width: 80%;
+  width: 500px;
+  margin: auto;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  background-color:lightsteelblue;
+}
+
+#btn-translate{
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1.5rem auto;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:lightyellow;
+  text-align: center;
+}

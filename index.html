@@ -5,8 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun Translation App</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
     <script src = "app.js" type = "text/javascript"></script>
+    <h1 class="heading">Fun Translation App!</h1>
+    <section class="container">
+        <textarea class="textAreaSize" id="textInput" placeholder="Put your message in here, which you want to be converted into minion language."></textarea>
+        <button id="btn-translate">Translate to Minion!</button>
+        <div><strong>Translation will be shown below ↓</strong></div>
+        <div class="outputtextAreaSize" id="textOutput"></div>
+    </section>
+
+    <footer class="footer">
+        <div style="text-align: center;">About this app</div>
+        <p style="text-align: center;">This is a simple translation app that takes input from the user and converts it into the minion language.</p>
+    </footer>
 </body>
 </html>
